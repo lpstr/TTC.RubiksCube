@@ -4,7 +4,5 @@ using System.Text;
 
 namespace TTC.RubiksCube.Domain
 {
-    public sealed record Move(
-    Face Face,
-    RotationDirection Direction);
+    public sealed record Move(Face Face, RotationDirection Direction);
 }

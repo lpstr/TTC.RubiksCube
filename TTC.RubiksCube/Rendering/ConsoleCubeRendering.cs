@@ -61,7 +61,6 @@ namespace TTC.RubiksCube.Rendering
                     Console.Write(
                     Colorize(face[r, c], "██") + " ");
                 }
-
                 Console.WriteLine();
             }
 
@@ -77,19 +76,15 @@ namespace TTC.RubiksCube.Rendering
             for (int r = 0; r < 3; r++)
             {
                 PrintRow(left, r);
-
                 Console.Write(" ");
 
                 PrintRow(front, r);
-
                 Console.Write(" ");
 
                 PrintRow(right, r);
-
                 Console.Write(" ");
 
                 PrintRow(back, r);
-
                 Console.WriteLine();
             }
 
